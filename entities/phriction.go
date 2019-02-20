@@ -1,5 +1,6 @@
 package entities
 
+import "github.com/hexerei/gonduit/constants"
 import "github.com/hexerei/gonduit/util"
 
 // PhrictionInfoDocument represents a document in Phriction wiki.
@@ -20,10 +21,10 @@ type PhrictionInfoDocument struct {
 
 // PhrictionDocumentCursor represents the cursor in Phriction document search
 type PhrictionDocumentCursor struct {
-	Limit  uint64                       `json:"limit"`
-	After  string                       `json:"after"`
-	Before string                       `json:"before"`
-	Order  PhrictionDocumentSearchOrder `json:"order"`
+	Limit  uint64                                 `json:"limit"`
+	After  string                                 `json:"after"`
+	Before string                                 `json:"before"`
+	Order  constants.PhrictionDocumentSearchOrder `json:"order"`
 }
 
 // PhrictionDocumentFieldsStatus represents the status field in Phriction document search fields
