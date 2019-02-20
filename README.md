@@ -1,6 +1,8 @@
-# gonduit [![GoDoc](https://godoc.org/github.com/etcinit/gonduit?status.svg)](https://godoc.org/github.com/etcinit/gonduit)
+# gonduit [![GoDoc](https://godoc.org/github.com/hexerei/gonduit?status.svg)](https://godoc.org/github.com/hexerei/gonduit)
 
 A Go client for interacting with [Phabricator](http://phabricator.org) via the [Conduit](https://secure.phabricator.com/book/phabdev/article/conduit/) API.
+
+Based on https://github.com/etcinit/gonduit - which was unfortunately not changed since 3-4 years and outdated on some aspects. Mainly added Phriciton document search functionality to export wiki files.
 
 ## Getting started
 
@@ -9,7 +11,7 @@ A Go client for interacting with [Phabricator](http://phabricator.org) via the [
 A simple `go get` should do it:
 
 ```
-go get github.com/etcinit/gonduit
+go get github.com/hexerei/gonduit
 ```
 
 For reproducible builds, you can also use [Glide](https://glide.sh/).

@@ -1,9 +1,9 @@
 package gonduit
 
 import (
-	"github.com/etcinit/gonduit/core"
-	"github.com/etcinit/gonduit/responses"
-	"github.com/etcinit/gonduit/util"
+	"github.com/hexerei/gonduit/core"
+	"github.com/hexerei/gonduit/responses"
+	"github.com/hexerei/gonduit/util"
 )
 
 // A Dialer contains options for connecting to an address.
@@ -18,7 +18,7 @@ func Dial(host string, options *core.ClientOptions) (*Conn, error) {
 	var d Dialer
 
 	d.ClientName = "gonduit"
-	d.ClientVersion = "1"
+	d.ClientVersion = "2"
 
 	return d.Dial(host, options)
 }

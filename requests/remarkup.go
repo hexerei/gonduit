@@ -1,6 +1,6 @@
 package requests
 
-import "github.com/etcinit/gonduit/constants"
+import "github.com/hexerei/gonduit/constants"
 
 // RemarkupProcessQuery represents a request to project.query.
 type RemarkupProcessRequest struct {

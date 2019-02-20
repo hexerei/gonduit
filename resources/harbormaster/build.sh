@@ -6,7 +6,7 @@ rm -r /home/drydock/go/src
 
 mkdir -p /home/drydock/go/src/github.com/etcinit
 ln -sf $(pwd) /home/drydock/go/src/github.com/etcinit/
-cd /home/drydock/go/src/github.com/etcinit/gonduit
+cd /home/drydock/go/src/github.com/hexerei/gonduit
 
 glide install
 go build $(glide novendor)

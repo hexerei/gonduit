@@ -1,8 +1,8 @@
 package gonduit
 
 import (
-	"github.com/etcinit/gonduit/requests"
-	"github.com/etcinit/gonduit/responses"
+	"github.com/hexerei/gonduit/requests"
+	"github.com/hexerei/gonduit/responses"
 )
 
 // ProjectQuery performs a call to project.query.
