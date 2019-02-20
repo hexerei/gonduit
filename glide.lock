@@ -1,5 +1,5 @@
-hash: 2c51c794ef46b9f0eb99094b90e356cac92f9b6e9867b0e1fbb142f98f9e2f29
-updated: 2016-09-12T13:11:09.183342812-07:00
+hash: 5398a272a557c605f8a45b4130d87d1757dcc8d26f85632b841d2907ec7213b8
+updated: 2019-02-20T13:45:51.4584953+01:00
 imports:
 - name: github.com/gin-gonic/gin
   version: e2fa89777e344782ef5d31929f095f4589c35dcc
@@ -28,6 +28,6 @@ testImports:
   subpackages:
   - difflib
 - name: github.com/stretchr/testify
-  version: f390dcf405f7b83c997eac1b06768bb9f44dec18
+  version: ffdc059bfe9ce6a4e144ba849dbedead332c6053
   subpackages:
   - assert

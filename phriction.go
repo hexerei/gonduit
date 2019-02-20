@@ -17,3 +17,16 @@ func (c *Conn) PhrictionInfo(
 
 	return &res, nil
 }
+
+// PhrictionDocumentSearch performs a call to phriction.document.search
+func (c *Conn) PhrictionDocumentSearch(
+	req requests.PhrictionDocumentSearchRequest,
+) (*responses.PhrictionDocumentSearchResponse, error) {
+	var res responses.PhrictionDocumentSearchResponse
+
+	if err := c.Call("phriction.document.search", &req, &res); err != nil {
+		return nil, err
+	}
+
+	return &res, nil
+}

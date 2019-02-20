@@ -2,11 +2,11 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-rm -r /home/drydock/go/src
+rm -r /home/hexerei/go/src
 
-mkdir -p /home/drydock/go/src/github.com/etcinit
-ln -sf $(pwd) /home/drydock/go/src/github.com/etcinit/
-cd /home/drydock/go/src/github.com/hexerei/gonduit
+mkdir -p /home/hexerei/go/src/github.com/hexerei
+ln -sf $(pwd) /home/hexerei/go/src/github.com/hexerei/
+cd /home/hexerei/go/src/github.com/hexerei/gonduit
 
 glide install
 go build $(glide novendor)
